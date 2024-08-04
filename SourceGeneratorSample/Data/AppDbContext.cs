@@ -13,4 +13,5 @@ public partial class AppDbContext : DbContext
 	}
 
 	public DbSet<Account> Accounts { get; set; }
+	public DbSet<Account> Accounts2 { get; set; }
 }
