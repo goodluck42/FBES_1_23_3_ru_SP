@@ -2,7 +2,7 @@ namespace Logger;
 
 public enum LogType
 {
-	Warning,
-	Error,
-	Information
+	Warning = 100,
+	Error = 1300,
+	Information = 19000
 }
